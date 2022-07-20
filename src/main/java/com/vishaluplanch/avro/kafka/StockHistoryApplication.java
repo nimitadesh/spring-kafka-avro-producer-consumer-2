@@ -6,9 +6,9 @@ import org.springframework.kafka.annotation.EnableKafka;
 
 @SpringBootApplication
 @EnableKafka
-public class Application {
+public class StockHistoryApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class);
+        SpringApplication.run(StockHistoryApplication.class);
     }
 }

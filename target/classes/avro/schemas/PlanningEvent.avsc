@@ -1,0 +1,31 @@
+{
+  "type": "record",
+  "name": "PlanningEvent",
+  "namespace": "com.vishaluplanch.avro.schema",
+  "fields": [
+    {
+      "name": "brand",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "market",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "channel",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "brandGuid",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "plannedCustomerChoiceId",
+      "type": ["null","string"],
+      "default": null
+    }]
+}
