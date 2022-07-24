@@ -11,6 +11,9 @@ spring:
         schema:
           registry:
             url: "http://localhost:8081"
+    streams:
+      bootstrap-servers: "localhost:9092"
+      application-id: "spring-kafka-stream-id"
     consumer:
       group-id: "spring-boot-avro-consumer-id"
       keyDeserializer: "org.apache.kafka.common.serialization.StringDeserializer"
@@ -23,6 +26,7 @@ spring:
         specific:
           avro:
             reader: "true"
+
 
 
 
