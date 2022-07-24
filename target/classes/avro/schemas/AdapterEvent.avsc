@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "AdapterEvent",
+  "namespace": "com.vishaluplanch.avro.schema",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "eventType",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "publishedDate",
+      "type": ["null","string"],
+      "default": null
+    }
+  ]
+}
